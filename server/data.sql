@@ -2,11 +2,10 @@ CREATE DATABASE todoapp;
 CREATE TABLE todos (
   id VARCHAR(255) PRIMARY KEY,
   user_email VARCHAR(255),
-  title VARCHAR(300),  
+  title VARCHAR(30),  
   Progress INT,
-  date VARCHAR(300)
+  date timestamp,
 );
-
 CREATE TABLE users (
     
     email VARCHAR (255) PRIMARY KEY,
